@@ -21,7 +21,7 @@ app = dash.Dash(__name__, server=server)
 
 
 # Load the dataset from GitHub
-df = pd.read_csv("https://github.com/crebi6/passport-index/blob/main/encoded-passport-power1.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/crebi6/passport-index/refs/heads/main/encoded-passport-power1.csv")
 
 # Create a mapping for visa requirements to colors
 requirement_colors = {
