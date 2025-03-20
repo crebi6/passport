@@ -19,6 +19,7 @@ def after_request(response):
 # Initialize Dash app with the Flask server
 app = dash.Dash(__name__, server=server)
 
+
 # Load the dataset from GitHub
 df = pd.read_csv("https://github.com/crebi6/passport-index/blob/main/encoded-passport-power1.csv")
 
