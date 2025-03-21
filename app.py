@@ -171,5 +171,5 @@ def update_output(selected_country):
 # Run the app
 server = app.server
 
-if __name__ == '__main__':
-    app.run_server(debug=True)
+if __name__ == "__main__":
+    app.run_server(debug=False)
