@@ -169,5 +169,7 @@ def update_output(selected_country):
     return fig_map, fig_pie, passport_stats, list_components
 
 # Run the app
+server = app.server
+
 if __name__ == '__main__':
     app.run_server(debug=True)
