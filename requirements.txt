@@ -1,4 +1,4 @@
 dash==2.14.2
-pandas==1.5.3  # More compatible version
+pandas==2.0.3
 plotly==5.18.0
-gunicorn==20.1.0
+gunicorn==21.2.0
