@@ -1,9 +1,3 @@
 [build]
-  command = "pip install -r requirements.txt && python app.py"
+  command = "python -m pip install --user -r requirements.txt && python app.py"
   publish = "/"
-
-[[plugins]]
-  package = "netlify-plugin-python"
-  [plugins.inputs]
-  pythonVersion = "3.10"
-  pipCommand = "install -r requirements.txt"
