@@ -169,7 +169,10 @@ def update_output(selected_country):
     return fig_map, fig_pie, passport_stats, list_components
 
 # Run the app
+app = dash.Dash(__name__)
 server = app.server
 
-if __name__ == "__main__":
+# Your existing layout and callbacks here
+
+if __name__ == '__main__':
     app.run_server(debug=False)
